@@ -2,15 +2,18 @@ import java.util.Scanner;
 
 public class Calc {
     public static void main(String[] args) {
-        System.out.println("Please enter in the first number: ");
-        Scanner input = new Scanner(System.in);
-        int a = input.nextInt();
-        System.out.println("Please enter in the second number: ");
-        int b = input.nextInt();
 
+        char Subhan=0;
 
-        int c = a + b;
-        System.out.println("The sum is: " +c);
+            System.out.println("Please enter in the first Name: ");
+            Scanner input = new Scanner(System.in);
+            char a = input.next().charAt(0);
+
+            if(a == Subhan) {
+                System.out.println("Please enter in the second number: ");
+                int b = input.nextInt();
+            }
+
 
 
 
